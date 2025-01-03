@@ -19,7 +19,8 @@ DBConnect().then(() => console.log('Connected!'));
 
 //cors
 const corsOptions = {
-  origin: 'http://localhost:3000', 
+  //origin: 'http://localhost:3000', 
+  origin: 'https://sms-portal-nishadkudav.netlify.app',
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", 
   credentials: true, 
 };
